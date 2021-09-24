@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@500&display=swap');
+
+:root {
+    --primary: #FFFE33;
+}
+body{
+    margin: 0px;
+}
+
+
+footer{
+    background-color: var(--primary);
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+}
+.header{
+    background-color: var(--primary);
+    font-family: 'Stick No Bills', sans-serif;  
+    font-size: xx-large;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 50%;
+    height: 20vh;
+    margin: auto;
+    font-size: large;
+    margin-top: 2rem;
+    font-family: 'Alumni Sans', sans-serif ;
+}
+
+#output{
+    border: 1px solid peru;
+    box-sizing: border-box;
+    display: block;
+    min-height: 10vh;
+    max-height: 20vh;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin: auto;
+    font-size: large ;
+    font-family: 'Alumni Sans', sans-serif ;
+    overflow : scroll;
+    margin-bottom: 2rem;
+}
+
+#btn-translate{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem 1.5rem; 
+    background-color: var(--primary) ;
+    font-size: x-large;
+    font-family: 'Alumni Sans', sans-serif ;
+}
+
+#txt{
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;      
+    font-size: 1rem;
+    margin-bottom: 2rem;
+   
+}
+
+.footer{
+    font-family: 'Stick No Bills', sans-serif;  
+    margin: 0px;
+    
+}
